@@ -1,0 +1,29 @@
+{
+    "name": "Da Test",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "arcade-story": "github:microsoft/arcade-storytelling#v1.0.3"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v2.0.6",
+        "tag": "v2.0.6",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/942de41dde4c514601efc8b94723137b7e57b84a",
+        "target": "2.0.6",
+        "pxt": "11.3.6",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
